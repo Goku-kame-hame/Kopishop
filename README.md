@@ -20,4 +20,4 @@ Coffee Shop is a daily necessity for local coffee addicts, a place to dream of, 
 <img src="screenshots/6.png" />
 
 ## Team:
-[Group 9] (https://github.com/rayhanrafli)
+[Group 9] (https://github.com/rayhanrafli) (https://github.com/Goku-kame-hame)
