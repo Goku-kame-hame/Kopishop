@@ -12,12 +12,13 @@ Coffee Shop is a daily necessity for local coffee addicts, a place to dream of, 
 * paint.net ( image editor)
 
 ## ScreenShots:
-<img src="screenshots/1.png" />
-<img src="screenshots/2.png" />
-<img src="screenshots/3.png" />
-<img src="screenshots/4.png" />
-<img src="screenshots/5.png" />
-<img src="screenshots/6.png" />
+<img src="screenshots/Screenshot 2024-09-30 235543.png" />
+<img src="screenshots/Screenshot 2024-09-30 235639.png" />
+<img src="screenshots/Screenshot 2024-09-30 235716.png" />
+<img src="screenshots/Screenshot 2024-09-30 235739.png" />
+<img src="screenshots/Screenshot 2024-09-30 235755.png" />
+<img src="screenshots/Screenshot 2024-09-30 235814.png" />
+<img src="screenshots/Screenshot 2024-09-30 235829.png" />
 
 ## Team:
 [Group 9] (https://github.com/rayhanrafli) (https://github.com/Goku-kame-hame)
