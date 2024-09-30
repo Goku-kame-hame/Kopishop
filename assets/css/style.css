@@ -58,7 +58,6 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
 }
 a,
 a:hover,
@@ -658,9 +657,7 @@ a.navbar-brand.our_logo{
 	background:url(../images/cover\ 2.jpg) center center no-repeat;
 	background-size:cover;
 }
-.main_slider {
-	
-}
+
 .main_slider .main_slider_content h1{
 font-size: 6rem;
     font-family: 'Pacifico', cursive;
@@ -800,66 +797,209 @@ font-size: 6rem;
 	line-height:3rem;
 }
 
-
-
-
-
-
 /*Amazing Deliceas Section css */
-.ourPakeg .main_pakeg_content .head_title h3{
-	color:#fff;
-	
-}
-.ourPakeg .main_pakeg_content .head_title h4{
-	color:#fff;
-	font-family: 'Pacifico', cursive;
-	font-size:1.875rem;
-}
-
-.ourPakeg{
-	background:url(../images/newsbg.jpg) no-repeat center top scroll;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;	
-  padding-bottom:120px;
+/* Ensure the section background is styled properly */
+.ourPakeg {
+    background: url(../images/newsbg.jpg) no-repeat center top scroll;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;    
+    padding-bottom: 120px;
 }
 
-.single_pakeg_one{
-	background:url(../images/hotdrinks.jpg) left center no-repeat;
-	padding:30px;
-	overflow:hidden;
-	margin-top:60px;
-}
-.single_pakeg_two{
-	background:url(../images/cocktail.jpg) right center no-repeat;
-	padding:30px;	
-	overflow:hidden;
-	margin-top:60px;	
-	
-}
-.single_pakeg_three{
-	background:url(../images/milkshakes.jfif) left center no-repeat;
-	padding:30px;	
-	overflow:hidden;
-	margin-top:60px;	
-	
+/* Padding and margin adjustments */
+.single_pakeg_one,
+.single_pakeg_two,
+.single_pakeg_three {
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
 }
 
-.single_pakeg_text{
-	background:#fff;
-	padding:30px;
-	text-align:left;
+/* Style the header */
+.ourPakeg .main_pakeg_content .head_title h3,
+.ourPakeg .main_pakeg_content .head_title h4 {
+    color: #fff;
 }
 
-.single_pakeg_text ul li{
-    background: url(../images/coffee2.jpg) no-repeat left center;
-    padding: 15px 0px 15px 60px;
+.ourPakeg .main_pakeg_content .head_title h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.875rem;
+}
+
+/* Style for individual packages */
+.single_package {
+    padding: 30px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+/* Single menu block text box styling */
+.single_pakeg_text {
+    background: #fff;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px; /* Optional: Add some rounding to the corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+/* Reset the list styling */
+.single_pakeg_text ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style each menu item with a background image */
+.single_pakeg_text ul li {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Set to row for horizontal layout */
+    align-items: center; /* Center align items */
+    padding: 15px;
     margin-top: 20px;
-    border-radius: 50px;
-	
+    border-radius: 10px;
+    background-size: 50px 50px; /* Set background image size */
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+    min-height: 70px; /* Increase height to avoid overlap */
+}
+
+/* Align text to the right of the image */
+.single_pakeg_text ul li > div {
+    margin-left: 60px; /* Space between image and text */
+    flex: 1; /* Allow text to take available space */
+}
+
+/* Drink name bold */
+.drink-name {
+    font-weight: bold; /* Make the drink name bold */
+}
+
+/* Description styling */
+.drink-description {
+    font-size: 0.9rem; /* Slightly smaller font size for description */
+    color: #555; /* Grey color for better readability */
+    margin: 5px 0; /* Margin for spacing */
+}
+
+/* Drink price positioning */
+.drink-price {
+    font-weight: bold; /* Make price bold */
+    color: #000; /* Black color for price */
+    margin-top: 5px; /* Add space above the price */
+    align-self: flex-end; /* Align price at the end of the flex item */
+}
+
+/* Individual drink background images */
+.single_pakeg_text ul li.espresso {
+    background-image: url(../images/espresso.jpg);
+}
+
+.single_pakeg_text ul li.americano {
+    background-image: url(../images/americano.jpg);
+}
+
+.single_pakeg_text ul li.latte {
+    background-image: url(../images/latte.jpg);
+}
+
+.single_pakeg_text ul li.hot-chocolate {
+    background-image: url(../images/hotchocolate.jpg);
+}
+
+.single_pakeg_text ul li.cappuccino {
+    background-image: url(../images/cappuccino.jpg);
+}
+
+.single_pakeg_text ul li.mojito {
+    background-image: url(../images/icemojito.jpg);
+}
+
+.single_pakeg_text ul li.pina-colada {
+    background-image: url(../images/pinacolada.jpg);
+}
+
+.single_pakeg_text ul li.ice-tea {
+    background-image: url(../images/icetea.jpg);
+}
+
+.single_pakeg_text ul li.frappuccino {
+    background-image: url(../images/frappuccino.jpg);
+}
+
+.single_pakeg_text ul li.ice-coffee {
+    background-image: url(../images/icecoffee.jpg);
+}
+
+.single_pakeg_text ul li.chocolate {
+    background-image: url(../images/chocolate_milkshake.jpg);
+}
+
+.single_pakeg_text ul li.strawberry {
+    background-image: url(../images/strawberry_milkshake.jpg);
+}
+
+.single_pakeg_text ul li.vanilla {
+    background-image: url(../images/vanilla_milkshake.jpg);
+}
+
+.single_pakeg_text ul li.licorn {
+    background-image: url(../images/licorn_milkshake.jpg);
+}
+
+.single_pakeg_text ul li.peanuts {
+    background-image: url(../images/peanuts_milkshake.jpg);
+}
+
+/* Optional hover effect */
+.single_pakeg_text ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Specific styles for each package */
+.single_pakeg_one {
+    background: url(../images/hotdrinks.jpg) left center no-repeat;
+    background-size: cover; /* Ensures the image covers the section */
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_pakeg_two {
+    background: url(../images/cocktail.jpg) right center no-repeat;
+    background-size: cover; /* Ensures the image covers the section */
+    padding: 30px;    
+    overflow: hidden;
+    margin-top: 60px;    
+}
+
+.single_pakeg_three {
+    background: url(../images/milkshakes.jfif) left center no-repeat;
+    background-size: cover; /* Ensures the image covers the section */
+    padding: 30px;    
+    overflow: hidden;
+    margin-top: 60px;    
+}
+
+/* For smaller screens, adjust background positions */
+@media (max-width: 768px) {
+    .single_pakeg_one, .single_pakeg_two, .single_pakeg_three {
+        background-position: center center; /* Center the images on small screens */
+        background-size: cover; /* Ensure it still covers the section */
+    }
+    
+    .single_pakeg_text ul li {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: flex-start; /* Align items to the left */
+        position: relative; /* Reset position for mobile */
+    }
+    
+    /* Adjust price for mobile */
+    .drink-price {
+        margin-left: 0; /* Reset left margin for mobile */
+        margin-top: 10px; /* Ensure it has space below the description */
+    }
 }
 
 /* Mobail Apps Section css */
