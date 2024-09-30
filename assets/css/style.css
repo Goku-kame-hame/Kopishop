@@ -774,6 +774,7 @@ font-size: 6rem;
     height: 300px; /* Set a fixed height for uniformity */
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
+
 .single_portfolio_text:hover .portfolio_images_overlay{
 	top: 28px;
     left: 14px;
@@ -955,7 +956,7 @@ font-size: 6rem;
 }
 
 .single_pakeg_text ul li.peanuts {
-    background-image: url(../images/peanut_milkshake.jpg);
+    background-image: url(../images/peanuts_milkshake.jpg);
 }
 
 /* Optional hover effect */
